@@ -12,7 +12,7 @@ public class JobSandbox {
 				"ARHS Luxembourg",
 				"2b",
 				"CUL_DE_SAC",
-				"Nicolas Bové",
+				"Nicolas Bovï¿½",
 				"L-1111",
 				"Luxembourg",
 				"Luxembourg",
@@ -32,7 +32,6 @@ public class JobSandbox {
 			System.out.println(m1ss);
 		}
 		catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

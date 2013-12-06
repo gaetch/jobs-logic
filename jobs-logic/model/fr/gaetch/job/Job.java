@@ -3,7 +3,7 @@ package fr.gaetch.job;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import fr.gaetch.office.Office;
+import fr.gaetch.employer.Office;
 
 public class Job {
 	private final Office office;
@@ -40,7 +40,7 @@ public class Job {
 	@Override
 	public String toString() {
 		return
-			this.position + " at " + this.office.getCompany() + (
+			this.position + " at " + this.office.getEmployer() + (
 				this.endDate == null ?
 					" since " + new SimpleDateFormat("dd/MM/yyyy").format(this.startDate)
 				:

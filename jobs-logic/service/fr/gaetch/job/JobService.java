@@ -4,6 +4,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import fr.gaetch.employer.Employer;
+import fr.gaetch.employer.Office;
 import fr.gaetch.job.Job;
 import fr.gaetch.job.Project;
 import fr.gaetch.location.Address;
@@ -13,8 +15,6 @@ import fr.gaetch.location.District;
 import fr.gaetch.location.Location;
 import fr.gaetch.location.RoadType;
 import fr.gaetch.location.ZipCode;
-import fr.gaetch.office.Office;
-import fr.gaetch.person.JuridicalPerson;
 
 public class JobService {
 	public static Job create(
@@ -30,7 +30,7 @@ public class JobService {
 		final String startDateString
 		) throws ParseException {
 		// Employer
-		JuridicalPerson employer = new JuridicalPerson(employerName);
+		Employer employer = new Employer(employerName);
 
 		// Address
 		final Location location;
