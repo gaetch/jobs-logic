@@ -1,4 +1,4 @@
-package fr.gaetch.office;
+package fr.gaetch.employer;
 
 import static org.junit.Assert.*;
 
